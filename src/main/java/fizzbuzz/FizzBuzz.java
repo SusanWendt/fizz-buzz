@@ -3,6 +3,7 @@ package fizzbuzz;
 public class FizzBuzz {
 
 	public String say(int number) {
+
 		if (isFizz(number) && isBuzz(number)) {
 			return "fizzbuzz";
 		}
